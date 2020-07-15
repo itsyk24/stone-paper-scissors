@@ -153,13 +153,15 @@ div.fadeIn{
     .match button {
         width:100px;
     height:35px;
+    margin: 10px;
     }
-    .intro{
-        justify-content: space-between;
-    }
+    
     .hands,.options{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+    }
+    .winner{
+        font-size: 35px;
     }
   }
