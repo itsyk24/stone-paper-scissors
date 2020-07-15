@@ -157,4 +157,9 @@ div.fadeIn{
     .intro{
         justify-content: space-between;
     }
+    .hands,.options{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
   }
