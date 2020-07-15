@@ -151,17 +151,26 @@ div.fadeIn{
 
 @media(max-width: 580px) {
     .match button {
-        width:100px;
+        width:90px;
     height:35px;
-    margin: 10px;
+    margin: 5px;
     }
     
-    .hands,.options{
+    .options{
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .winner{
         font-size: 35px;
+
+    }
+    .hands{
+        justify-content: space-around;
+        
+    }
+    .hands img{
+        width: 200px;
+        height: 176px;
     }
   }
